@@ -6,6 +6,9 @@ const fullpost = (props) => {
             <div className={classes.FullPost}>
                <h1>Title</h1>
                <p>Content</p>
+               <div>
+                    <button>Delete</button>
+               </div>
             </div>
 		);
 }
