@@ -395,8 +395,8 @@ module.exports = function(webpackEnv) {
               use: getStyleLoaders({
                 importLoaders: 1,
                 sourceMap: isEnvProduction && shouldUseSourceMap,
-                getlocalIdentName: '[local]__[name]__[hash:base64:5]',
                 modules: true,
+                localIdentName: '[local]__[name]__[hash:base64:5]',
                 minimize: true
               }),
               // Don't consider CSS imports dead code even if the
