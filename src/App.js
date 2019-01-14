@@ -5,9 +5,9 @@ import Aux from './hoc/Auxes';
 class App extends Component {
   render() {
     return (
-        <Aux>
+        <div>
            <Blog />
-        </Aux>
+        </div>
     );
   }
 }

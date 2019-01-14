@@ -7,6 +7,8 @@ class Blog extends Component {
 		return(
                <div className={classes.Blog}>
                   <Post />
+                  <Post />
+                  <Post />
                </div>
 			)
 	}
