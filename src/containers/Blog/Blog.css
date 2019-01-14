@@ -1,6 +1,8 @@
 .Blog {
 	justify-content: center;
 	display: flex;
-	flex-flow: row;
-	width: 100%;
+	flex-flow: row wrap;
+	width: 80%;
+	margin: auto;
+	/*background-color: red;*/
 }
