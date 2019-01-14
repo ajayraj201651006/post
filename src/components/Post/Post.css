@@ -1,3 +1,8 @@
 .Post {
 	text-align: center;
+	border: 1px solid #eee;
+	margin-top: 16px;
+	box-shadow: 0px 2px 3px #ccc;
+	width: 10%;
+	padding: 16px;
 }

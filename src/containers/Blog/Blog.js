@@ -5,7 +5,7 @@ import Post from '../../components/Post/Post';
 class Blog extends Component {
 	render() {
 		return(
-               <div>
+               <div className={classes.Blog}>
                   <Post />
                </div>
 			)
