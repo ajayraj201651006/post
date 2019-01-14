@@ -5,10 +5,12 @@ import Post from '../../components/Post/Post';
 class Blog extends Component {
 	render() {
 		return(
-               <div className={classes.Blog}>
-                  <Post />
-                  <Post />
-                  <Post />
+               <div>
+                  <section className={classes.Blog}>
+                    <Post />
+                    <Post />
+                    <Post />
+                  </section>
                </div>
 			)
 	}
