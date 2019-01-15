@@ -6,8 +6,8 @@ const fullpost = (props) => {
             <div className={classes.FullPost}>
                <h1>Title</h1>
                <p>Content</p>
-               <div>
-                    <button>Delete</button>
+               <div className={classes.Edit}>
+                    <button className={classes.Delete}>Delete</button>
                </div>
             </div>
 		);

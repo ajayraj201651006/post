@@ -5,3 +5,30 @@
     width: 80%;
     margin: 20px auto;
 }
+
+.Edit label {
+    display: block;
+    color: grey;
+}
+
+.Edit button {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+	color:  #fa923f;
+}
+
+.Edit button:hover,
+.Edit button:active {
+	color: #521751;
+}
+
+.Edit button.Delete {
+	color: red;
+}
+
+.Edit button.Delete:hover,
+.Edit button.Delete:active {
+	color: darkred;
+}
