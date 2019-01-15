@@ -3,10 +3,12 @@ import classes from './Post.css';
 
 const post = (props) => {
         return(
-                <div className={classes.Post}>
+                <article className={classes.Post}>
                   <h3>Title</h3>
-                  <p>Author</p>
-                </div>
+                  <div className={classes.Info}>
+                    <div className={classes.Author}>Author</div>
+                  </div>
+                </article>
         	);
 }
 
