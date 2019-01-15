@@ -16,6 +16,9 @@
 	display: inline-block;
 	cursor: pointer;
 	text-align: center;
+	margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 .Edit:hover {
