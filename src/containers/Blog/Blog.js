@@ -6,9 +6,13 @@ import NewPost from '../../components/NewPost/NewPost';
 import axios from 'axios';
 
 class Blog extends Component {
+  state = {
+    posts: []
+  }
+
   componentDidMount() {
       axios.get('https://jsonplaceholder.typicode.com/posts').then(response=>{
-        console.log(response);
+         this.setState({posts: response.data});
       });
   }
 
@@ -16,9 +20,7 @@ class Blog extends Component {
 		return(
                <div>
                   <section className={classes.Blog}>
-                    <Post />
-                    <Post />
-                    <Post />
+                    
                   </section>
                   <section>
                     <FullPost />
