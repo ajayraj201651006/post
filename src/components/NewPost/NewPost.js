@@ -12,9 +12,9 @@ class NewPost extends Component {
                 <div className={classes.NewPost}>
                     <h1>Add a Post</h1>
                     <label>Title</label>
-                    <input />
+                    <input type="text" value={this.state.title} onChange={(event)=>this.setState({title: event.target.value})}/>
 	                <label>Content</label>
-	                <textarea rows="4" />
+	                <textarea rows="4" value={this.state.content} onChange={(event)=>this.setState({content: event.target.value})} />
 	                <label>Author</label>
 	                <select>
                         <option value="Max">Max</option>
