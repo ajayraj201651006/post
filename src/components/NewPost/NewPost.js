@@ -19,7 +19,7 @@ const newPost = (props) => {
                         <option value="volvo">Volvo</option>
                     </select>
                     <div>
-	                    <button>
+	                    <button className={classes.Edit}>
 	                        Add Post
 	                    </button>
                     </div>
