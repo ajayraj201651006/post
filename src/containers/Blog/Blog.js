@@ -17,10 +17,14 @@ class Blog extends Component {
   }
 
 	render() {
+    const posts = this.state.posts.map(post=>{
+       return <Post title={post.title}/>
+    });
+
 		return(
                <div>
                   <section className={classes.Blog}>
-                    
+                    {posts}
                   </section>
                   <section>
                     <FullPost />
