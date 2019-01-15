@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import classes from './FullPost.css';
 
-const fullpost = (props) => {
-	return(
+class FullPost extends Component {
+	render() {
+		let post = <p>Please select a Post!</p>;
+		post = (
             <div className={classes.FullPost}>
                <h1>Title</h1>
                <p>Content</p>
@@ -11,6 +13,8 @@ const fullpost = (props) => {
                </div>
             </div>
 		);
-}
+      return post;
+	}
+} 
 
-export default fullpost;
+export default FullPost;
