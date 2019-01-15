@@ -14,7 +14,7 @@ class NewPost extends Component {
                     <label>Title</label>
                     <input />
 	                <label>Content</label>
-	                <textarea />
+	                <textarea rows="4" />
 	                <label>Author</label>
 	                <select>
                         <option value="Max">Max</option>
