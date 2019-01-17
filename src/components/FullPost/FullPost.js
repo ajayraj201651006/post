@@ -9,10 +9,12 @@ class FullPost extends Component {
 
     componentDidUpdate () {
     	if(this.props.id) {
-    		axios.get('https://jsonplaceholder.typicode.com/posts/1' + this.props.id).then(response=>{
-               this.setState({loadedPost: response.data});
-    		});
-    	}
+    		if(!this.state.loadedPost || (this.state.loadedPost && this.state.loadedPost.id !== this.props.id)) {
+	               axios.get('https://jsonplaceholder.typicode.com/posts/1' + this.props.id).then(response=>{
+	               this.setState({loadedPost: response.data});
+	    		});
+    		}
+        }
     }
 
 	render() {
