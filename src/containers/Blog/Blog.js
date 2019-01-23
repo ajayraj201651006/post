@@ -23,6 +23,10 @@ class Blog extends Component {
                           pathname: '/new-post',
                           hash: '#submit',
                           search: '?quick-submit=true'
+                        }}
+                        activeClassName="my-active-cls"
+                        activeStyle={{
+                          color: '#fa923f'
                         }}>New Post</NavLink></li>
                       </ul>
                     </nav>
