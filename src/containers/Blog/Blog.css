@@ -1,13 +1,4 @@
-.Blog {
-	justify-content: center;
-	display: flex;
-	flex-flow: row wrap;
-	width: 80%;
-	margin: auto;
-	/*background-color: red;*/
-}
-
-.Post ul {
+.Blog ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -15,17 +6,17 @@
 	text-align: center;
 }
 
-.Post li {
+.Blog li {
 	display: inline-block;
 	margin: 20px;
 }
 
-.Post a {
+.Blog a {
 	text-decoration: none;
 	color: black;
 }
 
-.Post a:hover,
-.Post a:active {
+.Blog a:hover,
+.Blog a:active {
 	color: #fa923f;
 }
